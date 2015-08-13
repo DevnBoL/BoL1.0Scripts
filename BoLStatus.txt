@@ -1,3 +1,3 @@
-BuyItem=false;
-LevelSpell=true;
-Skins=false;
+BuyItem=false
+LevelSpell=false
+Skins=false
