@@ -35,7 +35,7 @@ _ENV.ScriptVariables = "MotivateMe"
 _ENV.CurrentVersion = "1.00"
 _ENV.BuildDate = "2015/08/17"
 _ENV.LeagueVersion = "5.15 HF"
-_ENV.StatusKey = "SFIHNJMLNLH"
+_ENV.StatusKey = ""
 
 _ENV.UpdatePath = "DevnBoL/BoL1.0Scripts/master/MotivateMe/"
 
