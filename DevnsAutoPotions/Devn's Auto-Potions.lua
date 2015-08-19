@@ -35,7 +35,7 @@ _ENV.ScriptVariables = "DevnsAutoPotions"
 _ENV.CurrentVersion = "1.00"
 _ENV.BuildDate = "2015/08/18"
 _ENV.LeagueVersion = "5.15 HF"
-_ENV.StatusKey = ""
+_ENV.StatusKey = "WJMLRRNROLQ"
 
 _ENV.IsAutoPotionsScript = true
 
