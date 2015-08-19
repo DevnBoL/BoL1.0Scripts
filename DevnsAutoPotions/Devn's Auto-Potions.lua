@@ -5,8 +5,8 @@
 ---\\==================================================//---
 
 	Script:			Devn's Auto-Potions
-	Version:		1.00
-	Build Date: 	2015-08-18
+	Version:		1.0001
+	Build Date: 	2015-08-19
 	Author: 		Devn
 
 ---//==================================================\\---
@@ -15,6 +15,9 @@
 
 	Version 1.00:
 		- Initial script release.
+		
+	Version 1.001:
+		- Added script status code.
 
 --]]
 
@@ -32,7 +35,7 @@ assert(load(Base64Decode("G0x1YVIAAQQEBAgAGZMNChoKAAAAAAAAAAAAARWvLQAAF4DKhgb9Qw
 
 _ENV.ScriptName = "Devn's Auto-Potions"
 _ENV.ScriptVariables = "DevnsAutoPotions"
-_ENV.CurrentVersion = "1.00"
+_ENV.CurrentVersion = "1.001"
 _ENV.BuildDate = "2015/08/18"
 _ENV.LeagueVersion = "5.15 HF"
 _ENV.StatusKey = "WJMLRRNROLQ"
@@ -117,6 +120,9 @@ function SetupReadmeVariables()
 	Changelog = DialogBox("Changelog")
 	Changelog:Add("Version 1.00:")
 	Changelog:Add("-t- Initial script release.")
+	Changelog:Add()
+	Changelog:Add("Version 1.001")
+	Changelog:Add("-t- Added script status code.")
 	Changelog:AddButton("Readme", function()
 		Changelog:Close()
 		Readme:Show()
