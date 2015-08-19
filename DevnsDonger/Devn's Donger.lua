@@ -491,7 +491,7 @@ function SetupMiscConfig()
 	end
 	LoadPredictionToConfig(config)
 	config:Separator()
-	config:Slider("WFan", Format("{1} Fan Percent", Spells.W.Name), 0.5, 0, 1, 1)
+	config:Slider("WFan", Format("{1} Fan Percent", Spells.W.Name), 0.7, 0, 1, 1)
 	config:Separator()
 	config:Toggle("Readme", "Show Readme & Changelog", true)
 end
