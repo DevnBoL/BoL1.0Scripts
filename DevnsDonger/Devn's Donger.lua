@@ -61,9 +61,6 @@
 _G.DevnsDonger_DisableAutoUpdate = false
 _G.DevnsDonger_DisableSkins = false
 _G.DevnsDonger_DisableLevelSpell = false
-_G.DevnsDonger_SkipStatusCheck = true
-
-_G.DevnsDonger_EnableDebugMode = false
 
 if (myHero.charName ~= "Heimerdinger") then return end
 
